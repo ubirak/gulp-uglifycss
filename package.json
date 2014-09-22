@@ -1,0 +1,39 @@
+{
+  "name": "gulp-uglifycss",
+  "version": "1.0.0",
+  "description": "Gulp plugin to use uglifycss",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint index.js && ./node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezzza/gulp-uglifycss.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "uglifycss",
+    "css",
+    "uglify",
+    "compress"
+  ],
+  "author": "Rezzza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rezzza/gulp-uglifycss/issues"
+  },
+  "homepage": "https://github.com/rezzza/gulp-uglifycss",
+  "dependencies": {
+    "defaults": "^1.0.0",
+    "gulp-util": "^3.0.1",
+    "lodash.defaults": "^2.4.1",
+    "through2": "^0.6.2",
+    "uglifycss": "0.0.9"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
