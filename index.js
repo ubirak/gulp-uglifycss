@@ -1,7 +1,6 @@
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
 var through2 = require('through2');
-var defaults = require('lodash.defaults');
 var uglifycss = require('uglifycss');
 
 module.exports = function (options) {
