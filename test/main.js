@@ -81,36 +81,5 @@ describe('gulp-uglifycss', function () {
                 stream.write(file);
             });
         });
-
-        it('should provide target filename to sourcemap', function (done) {
-            var files = [
-                createVinyl('buttons.css'),
-                createVinyl('layout.css'),
-                createVinyl('simple.css')
-            ] .map(function (file) {
-                    file.sourceMap = {
-                        file: '',
-                        version : 3,
-                        sourceRoot : '',
-                        sources: [],
-                        names: [],
-                        mappings: ''
-                    };
-
-                    return file;
-                });
-
-            var stream = uglifycss();
-            var count = files.length;
-            stream.on('data', function (cssFile) {
-                should.exist(cssFile.sourceMap.file);
-            });
-            stream.on('end', done);
-
-            files.forEach(function (file) {
-                stream.write(file);
-            });
-            stream.end();
-        });
     });
 });
