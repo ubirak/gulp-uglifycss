@@ -28,7 +28,7 @@
     "gulp-util": "^3.0.1",
     "lodash.defaults": "^2.4.1",
     "through2": "^0.6.2",
-    "uglifycss": "0.0.9"
+    "uglifycss": "^0.0.9"
   },
   "devDependencies": {
     "jshint": "^2.5.6",
