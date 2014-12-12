@@ -8,7 +8,7 @@ Gulp plugin to use [UglifyCSS](https://github.com/fmarcia/UglifyCSS).
 ## Install
 
 ```
-npm install gulp-uglifycss
+npm install --save gulp-uglifycss
 ```
 
 ## Usage
@@ -26,4 +26,4 @@ gulp.task('css', function () {
 
 ## Options
 
-No specisific options. You can use all the [UglifyCSS](https://github.com/fmarcia/UglifyCSS) options.
+No specific options. You can use all the [UglifyCSS](https://github.com/fmarcia/UglifyCSS) options.
