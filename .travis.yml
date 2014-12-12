@@ -10,3 +10,9 @@ notifications:
             - ci@verylastroom.com
         on_success: change
         on_failure: change
+
+before_script:
+    - npm install
+
+script:
+    - npm test
