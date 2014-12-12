@@ -3,7 +3,7 @@ gulp-uglifycss
 
 Gulp plugin to use [UglifyCSS](https://github.com/fmarcia/UglifyCSS).
 
-[![Build Status](https://magnum.travis-ci.com/rezzza/gulp-uglifycss.svg?token=SSZ9gxnSGfss4494CX5W)](https://magnum.travis-ci.com/rezzza/gulp-uglifycss)
+[![Build Status](https://travis-ci.org/rezzza/gulp-uglifycss.svg?branch=master)](https://travis-ci.org/rezzza/gulp-uglifycss)
 
 ## Install
 
