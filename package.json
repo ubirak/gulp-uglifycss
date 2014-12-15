@@ -1,6 +1,6 @@
 {
   "name": "gulp-uglifycss",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Gulp plugin to use uglifycss",
   "main": "index.js",
   "scripts": {
