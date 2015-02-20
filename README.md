@@ -18,7 +18,7 @@ var uglifycss = require('gulp-uglifycss');
 gulp.task('css', function () {
   gulp.src('./styles/**/*.css')
     .pipe(uglifycss({
-      max-line-len: 80
+      "max-line-len": 80
     }))
     .pipe(gulp.dest('./dist/'));
 });
