@@ -18,7 +18,8 @@ var uglifycss = require('gulp-uglifycss');
 gulp.task('css', function () {
   gulp.src('./styles/**/*.css')
     .pipe(uglifycss({
-      "max-line-len": 80
+      "maxLineLen": 80,
+      "uglyComments": true
     }))
     .pipe(gulp.dest('./dist/'));
 });
