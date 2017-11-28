@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rezzza/gulp-uglifycss.git"
+    "url": "https://github.com/ubirak/gulp-uglifycss.git"
   },
   "keywords": [
     "gulpplugin",
@@ -18,12 +18,12 @@
     "uglify",
     "compress"
   ],
-  "author": "Rezzza",
+  "author": "Ubirak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rezzza/gulp-uglifycss/issues"
+    "url": "https://github.com/ubirak/gulp-uglifycss/issues"
   },
-  "homepage": "https://github.com/rezzza/gulp-uglifycss",
+  "homepage": "https://github.com/ubirak/gulp-uglifycss",
   "dependencies": {
     "gulp-util": "^3.0.8",
     "through2": "^2.0.3",
