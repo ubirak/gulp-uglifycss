@@ -1,5 +1,4 @@
-var gutil = require('gulp-util');
-var PluginError = gutil.PluginError;
+var PluginError = require('plugin-error');;
 var through2 = require('through2');
 var uglifycss = require('uglifycss');
 
